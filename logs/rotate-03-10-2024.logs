@@ -1,0 +1,19 @@
+{"label":"winston custom format","level":"info","message":"successfully fetched all users","timestamp":"03-10-2024 20:05:45"}
+{"label":"winston custom format","level":"info","message":"successfully fetched all users","timestamp":"03-10-2024 20:05:47"}
+{"label":"winston custom format","level":"info","message":"successfully fetched all users","timestamp":"03-10-2024 20:07:04"}
+{"label":"winston custom format","level":"info","message":"successfully fetched all users","timestamp":"03-10-2024 20:07:05"}
+{"label":"winston custom format","level":"info","message":"successfully fetched all users","timestamp":"03-10-2024 20:07:06"}
+{"label":"winston custom format","level":"info","message":"successfully fetched all users","timestamp":"03-10-2024 20:07:08"}
+{"label":"winston custom format","level":"info","message":"successfully fetched all users","timestamp":"03-10-2024 20:07:11"}
+{"label":"winston custom format","level":"info","message":"successfully fetched all users","timestamp":"03-10-2024 20:07:15"}
+{"label":"winston custom format","level":"info","message":"successfully fetched all users","timestamp":"03-10-2024 20:07:18"}
+{"label":"winston custom format","level":"info","message":"successfully fetched all users","timestamp":"03-10-2024 20:07:23"}
+{"label":"winston custom format","level":"info","message":"successfully fetched all users","timestamp":"03-10-2024 20:07:26"}
+{"label":"winston custom format","level":"error","message":"Error in reading all users","timestamp":"03-10-2024 20:09:07"}
+{"label":"winston custom format","level":"error","message":"Error in reading all users","timestamp":"03-10-2024 20:10:50"}
+{"label":"winston custom format","level":"error","message":"Error in reading all users","timestamp":"03-10-2024 20:10:52"}
+{"label":"winston custom format","level":"error","message":"Error in reading all users","timestamp":"03-10-2024 20:11:16"}
+{"label":"winston custom format","level":"error","message":"Error in reading all users","timestamp":"03-10-2024 20:11:18"}
+{"label":"winston custom format","level":"error","message":"Error in reading all users","timestamp":"03-10-2024 20:11:21"}
+{"label":"winston custom format","level":"error","message":"Error in reading all users","timestamp":"03-10-2024 20:11:28"}
+{"label":"winston custom format","level":"error","message":"Error in reading all users","timestamp":"03-10-2024 20:11:31"}
