@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env NODE_ENV=test jest --env-file=.env --testTimeout=10000",
+    "start": "node --env-file=.env server.js",
+    "test": "cross-env NODE_ENV=test jest --testTimeout=10000",
     "dev": "nodemon --env-file=.env server.js"
   },
   "jest": {

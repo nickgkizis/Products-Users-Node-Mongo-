@@ -10,11 +10,11 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: ["*"]
+    // origin:"*",
+    origin: ["http://localhost:8000", "http://www.aueb.gr"],
   })
 );
 
-// origin: ["http://localhost:8000", "http://www.aueb.gr"];
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -37,9 +37,5 @@ app.use("/api/users", user);
 app.use("/api/user-product", userProduct);
 
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument.options));
-
-app.listen(port, () => {
-  console.log(`Server is up, port: ${port}`);
-});
 
 module.exports = app;

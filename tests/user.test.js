@@ -7,7 +7,7 @@ const helpers = require("../services/user.service");
 beforeEach(async () => {
   await mongoose.connect(process.env.MONGODB_URI).then(
     () => {
-      console.log("Connetion to Mongo from Jest established");
+      console.log("Connection to Mongo from Jest established");
     },
     (err) => {
       console.log("Failed to connect to Mongo from Jest");
@@ -89,14 +89,10 @@ describe("Tests for /api/users/{username} requests", () => {
         },
       });
 
-    result = await helpers.findLastInsertedUser();
-
-    console.log("1>>>>", res.body.data);
-    console.log("2>>>>", result);
     expect(res.statusCode).toBe(200);
     expect(res.body.status).toBeTruthy();
     expect(res.body.data.name).toBe("new test4");
-    expect(res.body.data.surname).toBe("new test");
+    expect(res.body.data.surname).toBe("new test4");
   });
 
   it("DELETE /api/users/{username}", async () => {
